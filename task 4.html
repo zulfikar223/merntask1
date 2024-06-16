@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-4</title>
+    <style>
+        .container{
+            position: relative;
+            left: 500px;
+            top: 30px;
+        }
+        .container1 {
+            width: 40%;
+            border: 2px solid black;
+            height: 500px;
+            position: relative;
+        }
+        .container2 {
+            position: relative;
+            left: 200px;
+            bottom: 500px;
+        }
+       
+        .box1 {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            top: 20px;
+            border: 1px solid rgb(72, 207, 38);
+            background-color: green;
+            border-top-right-radius: 9px;
+            border-bottom-right-radius: 9px;
+        }
+
+        .box2 {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            border: 1px solid rgb(72, 207, 38);
+            background-color: rgb(69, 69, 236);
+            border-top-right-radius: 9px;
+            border-bottom-right-radius: 9px;
+            top: 40px;
+        }
+
+        .box3 {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            border: 1px solid rgb(240, 22, 22);
+            background-color: rgb(240, 22, 22);
+            border-top-right-radius: 9px;
+            border-bottom-right-radius: 9px;
+            top: 60px;
+        }
+
+        .box4 {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            border: 1px solid grey;
+            background-color: grey;
+            border-top-right-radius: 9px;
+            border-bottom-right-radius: 9px;
+            top: 80px;
+        }
+
+
+        div .message1 {
+            display: none;
+            position: absolute;
+            
+            top: 30px;
+        }
+
+        div .message2 {
+            display: none;
+        }
+
+        div .message3 {
+            position: absolute;
+            top: 173px;
+
+        }
+
+        div .message4 {
+            position: relative;
+            top: 40px;
+        }
+
+        .message1,
+        .message2,
+        .message3,
+        .message4 {
+            display: none;
+            position: absolute;
+            left: 70px;
+
+        }
+
+        div .box1:hover+.message1 {
+            display: block;
+        }
+
+        div .box2:hover+.message2 {
+            display: block;
+        }
+
+        div.box3:hover+.message3 {
+            display: inline-block;
+        }
+
+        div .box4:hover+.message4 {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <div class="container1">
+        
+        <div class="box1">
+        </div>
+        <div class="message1">Hi I am Green Box</div>
+        <div class="box2"></div>
+        <div class="message2">Hi I am Blue Box</div>
+        <div class="box3"></div>
+        <div class="message3">Hi I am Red Box</div>
+        <div class="box4"></div>
+        <div class="message4">Hi I am Grey Box</div>
+    </div>
+    <div class="container2">
+        <h1>Hoverable Sidenav Buttons</h1>
+        <p>Hover over the buttons in left side navigation to open them</p>
+    </div>
+</div>
+</body>
+
+</html>

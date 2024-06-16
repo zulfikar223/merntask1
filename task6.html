@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-6</title>
+    <style>
+        .container{
+            position: relative;
+            left: 400px;
+            width: 600px;
+            height: 800px;
+        }
+
+        .container1{
+            position: relative;
+            left: 150px;
+            display: inline-block;
+        }
+        .arrow{
+            display: inline-block;
+            position: relative;
+            left: 180px;
+            bottom: 170px;
+        }
+        .sub1, .sub2{
+            margin: 10px;
+        }
+        .text{
+            width: 580px;
+            padding: 5px;
+        }
+        .Login{
+            position: relative;
+            left: 9px;
+            width: 99%;
+            margin: 15px 0px;
+            padding: 5px;
+            background-color: rgb(33, 199, 33);
+            border: none;
+            color: white;
+            font-size: medium;
+        }
+        .container3{
+            width: 99%;
+            height: 60px;
+            border: 1px solid rgb(233, 231, 231);
+            background-color: rgb(233, 231, 231);
+            margin: 15px 5px;
+        }
+        .Cancel{
+            margin: 15px 0px;
+            padding: 7px;
+            width: 70px;
+            border: none;
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+            font-size: medium;
+            display: inline-block;
+        }
+        .forgotpassword{
+            display: inline-block;
+            position: relative;
+            left: 410px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <img class="img" src="Profile.png" alt="" width="300px">
+        </div>
+        <p class="arrow">&#8599;</p>
+        <div class="conatiner2">
+            <div class="sub1"><label for="">Username</label><br>
+            <input class="text" type="text" placeholder="Enter Username"><br></div>
+            <div class="sub2"><label for="">Password</label><br>
+            <input class="text" type="password" placeholder="Enter Password"></div>
+        </div>
+        <button class="Login">Login</button>
+        <input type="checkbox">Remember me
+        <div class="container3">
+            <button class="Cancel">Cancel</button>
+            <div class="forgotpassword">forgot <a href="">password?</a></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-5</title>
+    <style>
+        .container{
+            position: relative;
+            width: 550px;
+            height: 500px;
+            border: 1px solid black;
+            left: 400px;
+            top: 20px;
+            background-color: rgb(213, 213, 113);
+        }
+        ul li{
+            list-style-type: none;
+            position: relative;
+            
+        }
+        .container1{
+            display: inline-block;
+            position: relative;
+            top: -30px;
+        }
+        .l1::after{
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            background-color: black;
+            width: 15px;
+            height: 100%;
+        }
+        
+        .l1{
+            background-color: white;
+            width: 125px;
+            margin: 9px;
+            padding: 5px;
+           
+        }
+        .container2{
+            display: inline-block;
+            position: relative;
+            left: 15px;
+            top: -5px;
+            width: 300px;
+            color: rgb(122, 6, 137);
+            border-bottom: 1px solid rgb(122, 6, 137);
+
+        }
+        .container3{
+            display: block;
+            position: relative;
+            left: 210px;
+            margin: 0;
+            padding: 0;
+            line-height: 4px;
+            color: rgb(122, 6, 137);
+            font-style: italic;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <ul>
+                <li class="l1">Home page</li>
+                <li class="l1">Musings</li>
+                <li class="l1">My town</li>
+                <li class="l1">Links</li>
+            </ul>
+        </div>
+        <div class="container2">
+            <h1>My first styled page</h1>
+            <p>Welcome to my style page!</p>
+            <p>It lacks images,but at least it has style. And it has links, even if they don't go anywhere...</p>
+            <p>There should be more here,but I don't know what yet.</p>
+            
+        </div>
+        <div class="container3">
+            <p>Made 5 April 2004</p>
+            <p>by myself.</p>
+        </div>
+    </div>
+</body>
+</html>
